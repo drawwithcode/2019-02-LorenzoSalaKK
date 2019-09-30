@@ -17,7 +17,7 @@ function setup() {
       var colorHex = colorList[index];
       fill(color(colorHex));
 
-      ellipse(posx, posy, random(1,7));
+      ellipse(posx, posy, random(1, 7));
     }
   }
 
@@ -58,18 +58,3 @@ function draw() {
   ellipse(x, y, d);
 
 }
-
-function drawWords(x) {
-
-  fill(0);
-  text('ichi', x, 80);
-
-  fill(65);
-  text('ni', x, 150);
-
-  fill(190);
-  text('san', x, 220);
-
-  fill(255);
-  text('shi', x, 290);
-} 
